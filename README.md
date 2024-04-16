@@ -1,4 +1,4 @@
-## StylishFreak
+# StylishFreak
 
 A Fully Functional Responsive Clothing Shop.
 
@@ -24,4 +24,24 @@ MUI Carousel,
 Streamifier
 
 
-This is a completed project.
+## Installation
+```nodejs
+npm i
+```
+Install without Updating packages version
+```nodejs
+npm ci
+# or
+npm ci --legacy-peer-deps
+```
+
+## Run
+```nodejs
+npm run dev
+```
+
+Build then start
+```nodejs
+npm run build
+npm run start
+```
